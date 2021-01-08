@@ -51,7 +51,7 @@ export class PersonagensListaComponent implements OnInit {
           (error) => console.log(error),
           () => this.loading = false
         );
-      },18000);
+      },1500);
 
     }
 
