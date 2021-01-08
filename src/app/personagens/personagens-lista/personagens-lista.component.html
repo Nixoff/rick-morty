@@ -28,15 +28,16 @@
     <!-- </a> -->
   </div>
 </div>
-    <br>
-<button class="btn btn-primary btn-lg d-inline-block" type="button" (click)="loadPersonagens()">Carregar mais</button>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-<div></div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<button class="btn-loading btn btn-primary btn-lg d-inline-block" type="button" (click)="loadPersonagens()">Carregar mais</button>
+<div class="sep">
+  <br><br><br><br><br><br><br><br><br>
+</div>
 <div class="container" *ngIf="loading">
   <div class="row">
     <div class="col-3"></div>
     <div class="col-6">
-      <h1>Carregando...</h1>
+      <h1 class="loading-text">Carregando...</h1>
     </div>
     <div class="col-3"></div>
   </div>

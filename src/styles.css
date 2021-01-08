@@ -94,12 +94,29 @@ body > app-root > app-navbar > nav {
 .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: max-content;
 }
+.btn-loading{
+  display: none !important;
+}
+.sep {
+  display: none !important;
+}
+
 }
 
 @media (max-width: 768px) {
   body > app-root > div > app-personagens-lista > main > section > h1 {
     text-align: center;
   }
+
+  .loading-text {
+    margin-top: -30vh;
+    margin-left: -7vh;
+  }
+
+  .btn-loading {
+    margin-left: 25%;
+  }
+
   .navbar{
     width: 100%;
     min-width: 109.5%;
